@@ -1,6 +1,6 @@
 const projects = [
   {
-    title: "AdaComp — Adaptive Multi-Tier Compression Middleware for MPI Collectives",
+    title: "AdaComp - Adaptive Multi-Tier Compression Middleware for MPI Collectives",
     description: "MPI middleware with adaptive compression and pipelined communication overlap, reducing network overhead and accelerating collective operations in HPC clusters.",
     tech: "C/C++, MPI, HPC",
     link: "https://github.com/ZR12345/AdaComp",
@@ -30,7 +30,6 @@ const projects = [
     link: "https://github.com/ZR12345/Long-Term-MultiShot-Keyframe-Extraction",
   },
 ];
-
 export default function Projects() {
   return (
     <section id="projects" className="max-w-3xl mx-auto px-6 py-12">
@@ -41,10 +40,10 @@ export default function Projects() {
         {projects.map((project) => (
           <div key={project.title}>
             
-            href={project.link}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="font-medium text-blue-600 dark:text-blue-400 hover:underline"
+              href={project.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-medium text-blue-600 dark:text-blue-400 hover:underline"
             >
               {project.title}
             </a>

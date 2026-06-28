@@ -6,7 +6,6 @@ const navLinks = [
   { label: "achievements", href: "#achievements" },
   { label: "news", href: "#news" },
 ];
-
 export default function Navbar() {
   return (
     <nav className="max-w-3xl mx-auto px-6 py-6 flex gap-5 text-sm">
