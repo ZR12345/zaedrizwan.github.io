@@ -30,18 +30,17 @@ const experience = [
 
 export default function Experience() {
   return (
-    <section id="experience" className="max-w-3xl mx-auto px-6 py-16">
-      <h2 className="text-3xl font-bold mb-10">Experience</h2>
-      <div className="space-y-10">
+    <section id="experience" className="max-w-3xl mx-auto px-6 py-12">
+      <h2 className="text-xl font-semibold mb-6 text-gray-900 dark:text-gray-100">
+        Experience
+      </h2>
+      <div className="space-y-8">
         {experience.map((job) => (
-          <div key={job.role + job.org} className="border-l-2 border-gray-200 dark:border-gray-700 pl-6">
-            <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100">
-              {job.role}
+          <div key={job.role + job.org}>
+            <h3 className="font-medium text-gray-900 dark:text-gray-100">
+              {job.role} &#x2014; {job.org}
             </h3>
-            <p className="text-gray-600 dark:text-gray-400 mb-1">
-              {job.org}
-            </p>
-            <p className="text-sm text-gray-500 dark:text-gray-500 mb-3">
+            <p className="text-sm text-gray-500 dark:text-gray-500 mb-2">
               {job.period}
             </p>
             <ul className="list-disc list-inside space-y-1 text-gray-700 dark:text-gray-300">
