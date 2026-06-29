@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <section id="about" className="max-w-5xl mx-auto px-6 py-12">
+    <section id="about" className="max-w-5xl mx-auto px-6 pt-12 pb-6">
       <div className="flex flex-col sm:flex-row gap-10 sm:items-start">
         <div className="flex-1 max-w-2xl">
           <h1 className="text-3xl font-semibold mb-6 text-gray-900 dark:text-gray-100">
