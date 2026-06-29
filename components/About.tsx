@@ -8,15 +8,19 @@ export default function About() {
           </h1>
           <div className="space-y-4 text-lg leading-relaxed text-gray-700 dark:text-gray-300">
             <p>
+              I&#x2019;m an MTech student in Information Technology at{" "}
+              <a href="https://www.nitk.ac.in/" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline">
+                NIT Karnataka, Surathkal
+              </a>
+              , working on cryptography and post-quantum security.
+            </p>
+            <p>
               I started in digital forensics and web app security &#x2014;
               breaking and defending systems on both sides &#x2014; before
               getting pulled toward a harder question: will today&#x2019;s
               security still hold once quantum computers change what&#x2019;s
-              breakable. That&#x2019;s what I&#x2019;m researching for my
-              MTech at{" "}
-              <a href="https://www.nitk.ac.in/" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline">
-                NIT Karnataka, Surathkal
-              </a>: post-quantum secure authentication for military UAV swarms.
+              breakable. That&#x2019;s what my MTech research is on: post-quantum
+              secure authentication for military UAV swarms.
             </p>
             <p>
               Along the way I&#x2019;ve also built a fairly random mix of
@@ -31,6 +35,10 @@ export default function About() {
               when I&#x2019;m not doing that. You can find my CV{" "}
               <a href="/cv.pdf" className="text-blue-600 dark:text-blue-400 hover:underline">
                 here
+              </a>
+              , and I&#x2019;m happy to be reached at{" "}
+              <a href="mailto:zaedrizwan002@gmail.com" className="text-blue-600 dark:text-blue-400 hover:underline">
+                zaedrizwan002@gmail.com
               </a>
               .
             </p>

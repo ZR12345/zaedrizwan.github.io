@@ -5,13 +5,13 @@ export default function Footer() {
     <footer className="max-w-3xl mx-auto px-6 py-8 border-t border-gray-200 dark:border-gray-800 mt-4">
       <div className="flex justify-center gap-6 text-gray-500 dark:text-gray-400">
         <a href="mailto:zaedrizwan002@gmail.com" aria-label="Email" className="hover:text-gray-900 dark:hover:text-gray-100">
-          <FaEnvelope size={35} />
+          <FaEnvelope size={40} />
         </a>
         <a href="https://github.com/ZR12345" target="_blank" rel="noopener noreferrer" aria-label="GitHub" className="hover:text-gray-900 dark:hover:text-gray-100">
-          <FaGithub size={35} />
+          <FaGithub size={40} />
         </a>
         <a href="https://www.linkedin.com/in/zaed-rizwan-87a302209/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="hover:text-gray-900 dark:hover:text-gray-100">
-          <FaLinkedin size={35} />
+          <FaLinkedin size={40} />
         </a>
       </div>
       <p className="text-center text-xs text-gray-400 dark:text-gray-600 mt-4">
