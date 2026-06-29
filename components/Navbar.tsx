@@ -15,12 +15,12 @@ export default function Navbar() {
       <div className="absolute right-6">
         <ThemeToggle />
       </div>
-      <div className="max-w-5xl mx-auto flex gap-8 pl-26">
+      <div className="max-w-5xl mx-auto flex gap-3 pl-16">
         {navLinks.map((link) => (
           <Link
             key={link.href}
             href={link.href}
-            className="text-slate-600 dark:text-slate-400 hover:text-gray-900 dark:hover:text-gray-100 transition-colors"
+            className="border border-gray-300 dark:border-gray-700 rounded-md px-3 py-1.5 text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-100 hover:border-gray-500 dark:hover:border-gray-500 transition-colors"
           >
             {link.label}
           </Link>

@@ -7,7 +7,7 @@ export default function Research() {
         <h3 className="text-xl font-semibold text-gray-900 dark:text-gray-100">
           Post-Quantum Secure Dynamic Membership for Autonomous Military UAV Swarms
         </h3>
-        <p className="italic text-base text-blue-600 dark:text-blue-400">
+        <p className="italic text-base text-gray-500 dark:text-gray-400">
           MTech Thesis &#x2014; National Institute of Technology Karnataka, Surathkal
         </p>
 

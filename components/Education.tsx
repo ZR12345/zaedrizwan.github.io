@@ -22,7 +22,7 @@ export default function Education() {
       <div className="space-y-8">
         {education.map((item) => (
           <div key={item.institution}>
-            <h3 className="font-medium text-blue-600 dark:text-blue-400">
+            <h3 className="font-medium text-gray-900 dark:text-gray-100">
               {item.institution}
             </h3>
             <p className="text-gray-700 dark:text-gray-300">

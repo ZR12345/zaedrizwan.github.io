@@ -35,7 +35,7 @@ export default function Experience() {
       <div className="space-y-8">
         {experience.map((job) => (
           <div key={job.role + job.org}>
-            <h3 className="font-medium text-blue-600 dark:text-blue-400">
+            <h3 className="font-medium text-gray-900 dark:text-gray-100">
               {job.role} &#x2014; {job.org}
             </h3>
             <p className="text-sm text-gray-500 dark:text-gray-500 mb-2">
