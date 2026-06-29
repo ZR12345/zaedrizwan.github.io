@@ -32,6 +32,13 @@ export default function About() {
           TryHackMe or chasing the next CTF-style challenge &#x2014; old habits
           from the forensics days that never really went away.
         </p>
+        <p>
+              You can find my CV{" "}
+              <a href="/cv.pdf" className="text-blue-600 dark:text-blue-400 hover:underline">
+                here
+              </a>
+              .
+        </p>
       </div>
     </section>
   );
