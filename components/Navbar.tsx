@@ -9,7 +9,7 @@ const navLinks = [
 
 export default function Navbar() {
   return (
-    <nav className="max-w-3xl mx-auto px-6 py-8 flex items-center justify-between text-base">
+    <nav className="max-w-5xl mx-auto px-6 py-8 flex items-center justify-between text-base">
       <div className="flex gap-8">
         {navLinks.map((link) => (
           <Link
