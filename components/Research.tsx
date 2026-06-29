@@ -1,11 +1,11 @@
 export default function Research() {
   return (
     <section id="research" className="max-w-3xl mx-auto px-6 py-16">
-      <h2 className="text-3xl font-bold mb-6">Research</h2>
+      <h2 className="text-3xl font-bold mb-6 text-blue-600 dark:text-blue-400">Research</h2>
 
-      <div className="space-y-4 text-lg leading-relaxed text-gray-700 dark:text-gray-300">
+      <div className="space-y-4 text-base leading-relaxed text-gray-700 dark:text-gray-300">
         <h3 className="text-xl font-semibold text-gray-900 dark:text-gray-100">
-          Post-Quantum Secure Dynamic Membership for Military UAV Swarms
+          Post-Quantum Secure Dynamic Membership for Autonomous Military UAV Swarms
         </h3>
         <p className="italic text-base text-gray-500 dark:text-gray-400">
           MTech Thesis &#x2014; National Institute of Technology Karnataka, Surathkal
@@ -47,7 +47,7 @@ export default function Research() {
           power, memory, and latency constraints of real UAV platforms.
         </p>
 
-        <h3 className="text-xl font-semibold text-gray-900 dark:text-gray-100 mt-8">
+        <h3 className="text-xl font-semibold text-blue-600 dark:text-blue-400 mt-8">
           What&#x2019;s Next
         </h3>
         <p>

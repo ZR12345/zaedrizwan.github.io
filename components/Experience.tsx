@@ -31,9 +31,7 @@ const experience = [
 export default function Experience() {
   return (
     <section id="experience" className="max-w-3xl mx-auto px-6 py-12">
-      <h2 className="text-xl font-semibold mb-6 text-gray-900 dark:text-gray-100">
-        Experience
-      </h2>
+      <h2 className="text-3xl font-bold mb-10 text-blue-600 dark:text-blue-400">Experience</h2>
       <div className="space-y-8">
         {experience.map((job) => (
           <div key={job.role + job.org}>
