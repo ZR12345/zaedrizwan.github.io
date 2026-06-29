@@ -9,8 +9,11 @@ const navLinks = [
 
 export default function Navbar() {
   return (
-    <nav className="max-w-5xl mx-auto px-6 py-8 flex items-center justify-between text-base">
-      <div className="flex gap-8">
+    <nav className="relative flex items-center justify-center px-6 py-8 text-base">
+      <div className="absolute left-6">
+        <ThemeToggle />
+      </div>
+      <div className="max-w-5xl mx-auto flex gap-8">
         {navLinks.map((link) => (
           <Link
             key={link.href}
@@ -21,7 +24,6 @@ export default function Navbar() {
           </Link>
         ))}
       </div>
-      <ThemeToggle />
     </nav>
   );
 }
