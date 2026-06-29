@@ -1,8 +1,8 @@
 export default function About() {
   return (
-    <section id="about" className="max-w-3xl mx-auto px-6 py-16">
-      <div className="flex flex-col sm:flex-row gap-8 sm:items-start">
-        <div className="flex-1">
+    <section id="about" className="max-w-5xl mx-auto px-6 py-16">
+      <div className="flex flex-col sm:flex-row gap-10 sm:items-start">
+        <div className="flex-1 max-w-2xl">
           <h1 className="text-3xl font-semibold mb-6 text-gray-900 dark:text-gray-100">
             Zaed Rizwan
           </h1>
@@ -52,7 +52,7 @@ export default function About() {
         <img
           src="/profile.jpg"
           alt="Zaed Rizwan"
-          className="w-40 h-40 sm:w-44 sm:h-44 rounded-md object-cover flex-shrink-0"
+          className="w-32 h-32 sm:w-36 sm:h-36 rounded-md object-cover flex-shrink-0"
         />
       </div>
     </section>
